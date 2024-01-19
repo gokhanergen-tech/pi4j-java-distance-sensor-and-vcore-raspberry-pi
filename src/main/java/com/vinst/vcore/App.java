@@ -44,6 +44,7 @@ public class App {
             } catch (Exception e) {
                 pi4j.shutdown();
                 console.println("Veri okuma durduruldu!");
+                break;
             }
         }
 
